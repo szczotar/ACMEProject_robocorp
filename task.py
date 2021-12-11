@@ -9,6 +9,7 @@ def queueAcme(item_id):
 
     queue.set_work_item_variable("Age", "28")
     print(queue.list_work_item_variables())
+    queue.save_work_item()
     
   
 
