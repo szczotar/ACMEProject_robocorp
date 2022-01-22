@@ -27,7 +27,7 @@ secrets = Vault()
 http = HTTP()
 Chrom = browser.new_browser(browser = SupportedBrowsers["chromium"], headless = False)
                             # downloadsPath =r"C:\Users\admin\Downloads")
-context =  browser.new_context(acceptDownloads= True)
+context =  browser.new_context(acceptDownloads= True, javaScriptEnabled = True, ignoreHTTPSErrors = True,bypassCSP=True)
 
 
 def openWebsite():
@@ -56,6 +56,7 @@ def Navigate_Dashboard():
     browser.click("xpath=/html/body/nav/div/div[1]/a")
 
 def Collect_repotsFromYear(TaxID):
+
     for monthIndex in range(1,13):
         try:
             browser.type_text("id=vendorTaxID", TaxID)
@@ -82,34 +83,40 @@ def Combine_MonthlyReports(TaxID):
         os.remove(file)
 
 def Upload_YearlyReport(TaxID):
-     browser.type_text("id=vendorTaxID", TaxID)
-     browser.select_options_by("id=reportYear", SelectAttribute.value, "2021")
-     promise = browser.promise_to_upload_file(rf"C:\Users\admin\Downloads\Yearly-Report-2021-{TaxID}.xlsx")
-     browser.click("""xpath = //*[@id="searchForm"]/div[3]/div/label""")
-     browser.wait_for(promise)
+    # try:
+    browser.type_text("id=vendorTaxID", TaxID)
+    browser.select_options_by("id=reportYear", SelectAttribute.value, "2021")
+    promise = browser.promise_to_upload_file(rf"C:\Users\admin\Downloads\Yearly-Report-2021-{TaxID}.xlsx")
+    browser.click("""xpath = //*[@id="searchForm"]/div[3]/div/label""")
+    browser.wait_for(promise)
+    browser.click("id=buttonUpload")
 
+    # except:
+    #     browser.reload()
+    #     continue
+ 
                   
 def minimal_task():
     
     openWebsite()
     LogIn()
-    Navigate_MonthlyReports()
+    
     queue = WorkItems()
     while True:
 
         try:
-        
             queue.get_input_work_item()
             payload = queue.get_work_item_payload()
         
             if not payload:
                 break
-
+            Navigate_MonthlyReports()
             Collect_repotsFromYear(payload['TaxID'])
             Combine_MonthlyReports(payload['TaxID'])
             Navigate_Dashboard()
             Navigate_UploadYearlyReports()
             Upload_YearlyReport(payload['TaxID'])
+            Navigate_Dashboard()
 
             queue.release_input_work_item(state= State.DONE)
 
