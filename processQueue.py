@@ -28,7 +28,7 @@ http = HTTP()
 Chrom = browser.new_browser(browser = SupportedBrowsers["chromium"], headless = False)
                             # downloadsPath =r"C:\Users\admin\Downloads")
 context =  browser.new_context(acceptDownloads= True, javaScriptEnabled = True, ignoreHTTPSErrors = True,bypassCSP=True)
-os.chdir(r"C:\Users\admin\Desktop\Robocorp\ACME_Project\output")
+os.chdir("output")
 
 def openWebsite():
     try:
