@@ -33,7 +33,7 @@ root.addHandler(handler)
 browser = Playwright()
 secrets = Vault()
 http = HTTP()
-Chrom = browser.new_browser(browser = SupportedBrowsers["chromium"], headless = False)
+Chrom = browser.new_browser(browser = SupportedBrowsers["chromium"])
 
 def openWebsite():
     try:
