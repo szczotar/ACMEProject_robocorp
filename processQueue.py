@@ -28,7 +28,7 @@ http = HTTP()
 Chrom = browser.new_browser(browser = SupportedBrowsers["chromium"], headless = False)
                             # downloadsPath =r"C:\Users\admin\Downloads")
 context =  browser.new_context(acceptDownloads= True, javaScriptEnabled = True, ignoreHTTPSErrors = True,bypassCSP=True)
-
+os.chdir(r"C:\Users\admin\Desktop\Robocorp\ACME_Project\output")
 
 def openWebsite():
     try:
@@ -62,7 +62,7 @@ def Collect_repotsFromYear(TaxID):
             browser.type_text("id=vendorTaxID", TaxID)
             browser.select_options_by("id=reportYear", SelectAttribute.value, "2021")
             browser.select_options_by("id=reportMonth", SelectAttribute.value, str(monthIndex))                 
-            file_name = rf"C:\Users\admin\Downloads\report_{TaxID}_{monthIndex}.csv"
+            file_name = rf"{os.getcwd()}\report_{TaxID}_{monthIndex}.csv"
             promise = browser.promise_to_wait_for_download(file_name)
             browser.click("id=buttonDownload")
             browser.wait_for(promise)
@@ -72,7 +72,7 @@ def Collect_repotsFromYear(TaxID):
 
 def Combine_MonthlyReports(TaxID):
     # Combine all report to one excel file
-    os.chdir(r"C:\Users\admin\Downloads")
+    # os.chdir(r"C:\Users\admin\Downloads")
     extension = "csv"
     all_reports = [i for i in glob.glob(f"report_{TaxID}_*.{extension}")]
     combined_reports = pd.concat([pd.read_csv(f) for f in all_reports])
@@ -86,7 +86,7 @@ def Upload_YearlyReport(TaxID):
     # try:
     browser.type_text("id=vendorTaxID", TaxID)
     browser.select_options_by("id=reportYear", SelectAttribute.value, "2021")
-    promise = browser.promise_to_upload_file(rf"C:\Users\admin\Downloads\Yearly-Report-2021-{TaxID}.xlsx")
+    promise = browser.promise_to_upload_file(rf"{os.getcwd()}\Yearly-Report-2021-{TaxID}.xlsx")
     browser.click("""xpath = //*[@id="searchForm"]/div[3]/div/label""")
     browser.wait_for(promise)
     browser.click("id=buttonUpload")
