@@ -25,7 +25,7 @@ import glob
 browser = Playwright(timeout = "10s")
 secrets = Vault()
 http = HTTP()
-Chrom = browser.new_browser(browser = SupportedBrowsers["chromium"], headless = False)
+Chrom = browser.new_browser(browser = SupportedBrowsers["chromium"])
                             # downloadsPath =r"C:\Users\admin\Downloads")
 context =  browser.new_context(acceptDownloads= True, javaScriptEnabled = True, ignoreHTTPSErrors = True,bypassCSP=True)
 os.chdir("output")
