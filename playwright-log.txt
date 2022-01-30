@@ -1,105 +1,105 @@
-{"level":30,"time":"2022-01-23T14:57:19.764Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Listening on 50463"}
-{"level":30,"time":"2022-01-23T14:57:20.222Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2022-01-23T14:57:20.628Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method newBrowser"}
-{"level":30,"time":"2022-01-23T14:57:20.639Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method newContext"}
-{"level":30,"time":"2022-01-23T14:57:20.640Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2022-01-23T14:57:20.640Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Trace file: "}
-{"level":30,"time":"2022-01-23T14:57:20.651Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Changed active context"}
-{"level":30,"time":"2022-01-23T14:57:20.651Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method newContext"}
-{"level":30,"time":"2022-01-23T14:57:20.659Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method newPage"}
-{"level":30,"time":"2022-01-23T14:57:20.659Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2022-01-23T14:57:20.848Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Video path: undefined"}
-{"level":30,"time":"2022-01-23T14:57:20.849Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Changed active page"}
-{"level":30,"time":"2022-01-23T14:57:24.383Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method newPage"}
-{"level":30,"time":"2022-01-23T14:57:24.389Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method typeText"}
-{"level":30,"time":"2022-01-23T14:57:24.390Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=email in page."}
-{"level":30,"time":"2022-01-23T14:57:24.532Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method typeText"}
-{"level":30,"time":"2022-01-23T14:57:24.537Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method typeText"}
-{"level":30,"time":"2022-01-23T14:57:24.538Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=password in page."}
-{"level":30,"time":"2022-01-23T14:57:24.589Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method typeText"}
-{"level":30,"time":"2022-01-23T14:57:24.593Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method click"}
-{"level":30,"time":"2022-01-23T14:57:24.593Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with xpath=/html/body/div/div[2]/div/div/div/form/button in page."}
-{"level":30,"time":"2022-01-23T14:57:25.666Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method click"}
-{"level":30,"time":"2022-01-23T14:57:25.682Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method click"}
-{"level":30,"time":"2022-01-23T14:57:25.682Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with xpath=//*[@id=\"dashmenu\"]/div[8]/button in page."}
-{"level":30,"time":"2022-01-23T14:57:25.819Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method click"}
-{"level":30,"time":"2022-01-23T14:57:25.823Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method click"}
-{"level":30,"time":"2022-01-23T14:57:25.823Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with text=Download Monthly Report in page."}
-{"level":30,"time":"2022-01-23T14:57:26.159Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method click"}
-{"level":30,"time":"2022-01-23T14:57:26.170Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method typeText"}
-{"level":30,"time":"2022-01-23T14:57:26.170Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=vendorTaxID in page."}
-{"level":30,"time":"2022-01-23T14:57:26.251Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method typeText"}
-{"level":30,"time":"2022-01-23T14:57:26.255Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method selectOption"}
-{"level":30,"time":"2022-01-23T14:57:26.256Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=reportYear in page."}
-{"level":30,"time":"2022-01-23T14:57:26.476Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method selectOption"}
-{"level":30,"time":"2022-01-23T14:57:26.481Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method selectOption"}
-{"level":30,"time":"2022-01-23T14:57:26.481Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=reportMonth in page."}
-{"level":30,"time":"2022-01-23T14:57:26.518Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method selectOption"}
-{"level":30,"time":"2022-01-23T14:57:26.526Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method click"}
-{"level":30,"time":"2022-01-23T14:57:26.526Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=buttonDownload in page."}
-{"level":30,"time":"2022-01-23T14:57:26.531Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method waitForDownload"}
-{"level":30,"time":"2022-01-23T14:57:26.582Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method click"}
-{"level":30,"time":"2022-01-23T14:57:27.199Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"suggestedFilename: Report-DE456232-1.csv saveAs path: C:\\Users\\admin\\AppData\\Local\\robocorp\\temp\\4d65822107fcef2e\\playwright-artifacts-NvhpD1\\1db081c3-7e7c-48e3-a7c5-19d9643797ef"}
-{"level":30,"time":"2022-01-23T14:57:27.199Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method waitForDownload"}
-{"level":30,"time":"2022-01-23T14:57:27.204Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method typeText"}
-{"level":30,"time":"2022-01-23T14:57:27.204Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=vendorTaxID in page."}
-{"level":30,"time":"2022-01-23T14:57:27.250Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method typeText"}
-{"level":30,"time":"2022-01-23T14:57:27.253Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method selectOption"}
-{"level":30,"time":"2022-01-23T14:57:27.253Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=reportYear in page."}
-{"level":30,"time":"2022-01-23T14:57:27.282Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method selectOption"}
-{"level":30,"time":"2022-01-23T14:57:27.285Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method selectOption"}
-{"level":30,"time":"2022-01-23T14:57:27.285Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=reportMonth in page."}
-{"level":30,"time":"2022-01-23T14:57:27.314Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method selectOption"}
-{"level":30,"time":"2022-01-23T14:57:27.319Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method waitForDownload"}
-{"level":30,"time":"2022-01-23T14:57:27.321Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method click"}
-{"level":30,"time":"2022-01-23T14:57:27.321Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=buttonDownload in page."}
-{"level":30,"time":"2022-01-23T14:57:27.371Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method click"}
-{"level":30,"time":"2022-01-23T14:57:27.969Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"suggestedFilename: Report-DE456232-2.csv saveAs path: C:\\Users\\admin\\AppData\\Local\\robocorp\\temp\\4d65822107fcef2e\\playwright-artifacts-NvhpD1\\300b35ff-578a-4578-934d-8fffae8a2bdf"}
-{"level":30,"time":"2022-01-23T14:57:27.970Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method waitForDownload"}
-{"level":30,"time":"2022-01-23T14:57:27.977Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method typeText"}
-{"level":30,"time":"2022-01-23T14:57:27.977Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=vendorTaxID in page."}
-{"level":30,"time":"2022-01-23T14:57:28.025Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method typeText"}
-{"level":30,"time":"2022-01-23T14:57:28.028Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method selectOption"}
-{"level":30,"time":"2022-01-23T14:57:28.028Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=reportYear in page."}
-{"level":30,"time":"2022-01-23T14:57:28.057Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method selectOption"}
-{"level":30,"time":"2022-01-23T14:57:28.061Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method selectOption"}
-{"level":30,"time":"2022-01-23T14:57:28.061Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=reportMonth in page."}
-{"level":30,"time":"2022-01-23T14:57:28.084Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method selectOption"}
-{"level":30,"time":"2022-01-23T14:57:28.090Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method waitForDownload"}
-{"level":30,"time":"2022-01-23T14:57:28.092Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method click"}
-{"level":30,"time":"2022-01-23T14:57:28.093Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=buttonDownload in page."}
-{"level":30,"time":"2022-01-23T14:57:28.135Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method click"}
-{"level":30,"time":"2022-01-23T14:57:28.791Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"suggestedFilename: Report-DE456232-3.csv saveAs path: C:\\Users\\admin\\AppData\\Local\\robocorp\\temp\\4d65822107fcef2e\\playwright-artifacts-NvhpD1\\e95736b1-0318-4d25-bcc9-af9845da69ff"}
-{"level":30,"time":"2022-01-23T14:57:28.791Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method waitForDownload"}
-{"level":30,"time":"2022-01-23T14:57:28.851Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method typeText"}
-{"level":30,"time":"2022-01-23T14:57:28.851Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=vendorTaxID in page."}
-{"level":30,"time":"2022-01-23T14:57:28.897Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method typeText"}
-{"level":30,"time":"2022-01-23T14:57:28.899Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method selectOption"}
-{"level":30,"time":"2022-01-23T14:57:28.899Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=reportYear in page."}
-{"level":30,"time":"2022-01-23T14:57:28.925Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method selectOption"}
-{"level":30,"time":"2022-01-23T14:57:28.927Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method selectOption"}
-{"level":30,"time":"2022-01-23T14:57:28.928Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=reportMonth in page."}
-{"level":30,"time":"2022-01-23T14:57:28.951Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method selectOption"}
-{"level":30,"time":"2022-01-23T14:57:28.956Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method waitForDownload"}
-{"level":30,"time":"2022-01-23T14:57:28.959Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method click"}
-{"level":30,"time":"2022-01-23T14:57:28.959Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=buttonDownload in page."}
-{"level":30,"time":"2022-01-23T14:57:29.002Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method click"}
-{"level":30,"time":"2022-01-23T14:57:29.452Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"suggestedFilename: Report-DE456232-4.csv saveAs path: C:\\Users\\admin\\AppData\\Local\\robocorp\\temp\\4d65822107fcef2e\\playwright-artifacts-NvhpD1\\e53641cb-ef98-408d-b5a0-8cdaf04df5bd"}
-{"level":30,"time":"2022-01-23T14:57:29.453Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method waitForDownload"}
-{"level":30,"time":"2022-01-23T14:57:29.457Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method typeText"}
-{"level":30,"time":"2022-01-23T14:57:29.457Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=vendorTaxID in page."}
-{"level":30,"time":"2022-01-23T14:57:29.524Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method typeText"}
-{"level":30,"time":"2022-01-23T14:57:29.527Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method selectOption"}
-{"level":30,"time":"2022-01-23T14:57:29.527Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=reportYear in page."}
-{"level":30,"time":"2022-01-23T14:57:29.556Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method selectOption"}
-{"level":30,"time":"2022-01-23T14:57:29.559Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method selectOption"}
-{"level":30,"time":"2022-01-23T14:57:29.559Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=reportMonth in page."}
-{"level":30,"time":"2022-01-23T14:57:29.601Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method selectOption"}
-{"level":30,"time":"2022-01-23T14:57:29.607Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method waitForDownload"}
-{"level":30,"time":"2022-01-23T14:57:29.609Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method click"}
-{"level":30,"time":"2022-01-23T14:57:29.609Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=buttonDownload in page."}
-{"level":30,"time":"2022-01-23T14:57:29.669Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method click"}
-{"level":30,"time":"2022-01-23T14:57:39.613Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Error of node method waitForDownload"}
+{"level":30,"time":"2022-01-30T16:28:14.480Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Listening on 64384"}
+{"level":30,"time":"2022-01-30T16:28:14.658Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2022-01-30T16:28:15.683Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method newBrowser"}
+{"level":30,"time":"2022-01-30T16:28:15.695Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method newContext"}
+{"level":30,"time":"2022-01-30T16:28:15.696Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2022-01-30T16:28:15.696Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Trace file: "}
+{"level":30,"time":"2022-01-30T16:28:15.738Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Changed active context"}
+{"level":30,"time":"2022-01-30T16:28:15.739Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method newContext"}
+{"level":30,"time":"2022-01-30T16:28:15.761Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method newPage"}
+{"level":30,"time":"2022-01-30T16:28:15.761Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2022-01-30T16:28:16.542Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Video path: undefined"}
+{"level":30,"time":"2022-01-30T16:28:16.542Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Changed active page"}
+{"level":30,"time":"2022-01-30T16:28:18.025Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method newPage"}
+{"level":30,"time":"2022-01-30T16:28:18.037Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method typeText"}
+{"level":30,"time":"2022-01-30T16:28:18.038Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2022-01-30T16:28:18.378Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method typeText"}
+{"level":30,"time":"2022-01-30T16:28:18.382Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method typeText"}
+{"level":30,"time":"2022-01-30T16:28:18.382Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2022-01-30T16:28:18.447Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method typeText"}
+{"level":30,"time":"2022-01-30T16:28:18.452Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method click"}
+{"level":30,"time":"2022-01-30T16:28:18.453Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with xpath=/html/body/div/div[2]/div/div/div/form/button in page."}
+{"level":30,"time":"2022-01-30T16:28:19.832Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method click"}
+{"level":30,"time":"2022-01-30T16:28:19.854Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method click"}
+{"level":30,"time":"2022-01-30T16:28:19.855Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with xpath=//*[@id=\"dashmenu\"]/div[8]/button in page."}
+{"level":30,"time":"2022-01-30T16:28:20.024Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method click"}
+{"level":30,"time":"2022-01-30T16:28:20.029Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method click"}
+{"level":30,"time":"2022-01-30T16:28:20.029Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with text=Download Monthly Report in page."}
+{"level":30,"time":"2022-01-30T16:28:20.531Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method click"}
+{"level":30,"time":"2022-01-30T16:28:20.540Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method typeText"}
+{"level":30,"time":"2022-01-30T16:28:20.540Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=vendorTaxID in page."}
+{"level":30,"time":"2022-01-30T16:28:20.666Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method typeText"}
+{"level":30,"time":"2022-01-30T16:28:20.671Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method selectOption"}
+{"level":30,"time":"2022-01-30T16:28:20.671Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=reportYear in page."}
+{"level":30,"time":"2022-01-30T16:28:20.797Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method selectOption"}
+{"level":30,"time":"2022-01-30T16:28:20.802Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method selectOption"}
+{"level":30,"time":"2022-01-30T16:28:20.803Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=reportMonth in page."}
+{"level":30,"time":"2022-01-30T16:28:20.833Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method selectOption"}
+{"level":30,"time":"2022-01-30T16:28:20.838Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method click"}
+{"level":30,"time":"2022-01-30T16:28:20.838Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=buttonDownload in page."}
+{"level":30,"time":"2022-01-30T16:28:20.841Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method waitForDownload"}
+{"level":30,"time":"2022-01-30T16:28:20.906Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method click"}
+{"level":30,"time":"2022-01-30T16:28:22.061Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"suggestedFilename: Report-DE456232-1.csv saveAs path: C:\\Users\\admin\\AppData\\Local\\robocorp\\temp\\4d65822107fcef2e\\playwright-artifacts-XuHuK3\\6921bae0-7c65-4a15-a6a3-a8e2cb821be8"}
+{"level":30,"time":"2022-01-30T16:28:22.061Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method waitForDownload"}
+{"level":30,"time":"2022-01-30T16:28:22.072Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method typeText"}
+{"level":30,"time":"2022-01-30T16:28:22.072Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=vendorTaxID in page."}
+{"level":30,"time":"2022-01-30T16:28:22.251Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method typeText"}
+{"level":30,"time":"2022-01-30T16:28:22.256Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method selectOption"}
+{"level":30,"time":"2022-01-30T16:28:22.256Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=reportYear in page."}
+{"level":30,"time":"2022-01-30T16:28:22.309Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method selectOption"}
+{"level":30,"time":"2022-01-30T16:28:22.313Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method selectOption"}
+{"level":30,"time":"2022-01-30T16:28:22.313Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=reportMonth in page."}
+{"level":30,"time":"2022-01-30T16:28:22.375Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method selectOption"}
+{"level":30,"time":"2022-01-30T16:28:22.380Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method waitForDownload"}
+{"level":30,"time":"2022-01-30T16:28:22.386Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method click"}
+{"level":30,"time":"2022-01-30T16:28:22.387Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=buttonDownload in page."}
+{"level":30,"time":"2022-01-30T16:28:22.460Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method click"}
+{"level":30,"time":"2022-01-30T16:28:23.196Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"suggestedFilename: Report-DE456232-2.csv saveAs path: C:\\Users\\admin\\AppData\\Local\\robocorp\\temp\\4d65822107fcef2e\\playwright-artifacts-XuHuK3\\bfbdf34d-de5c-40f5-9687-5fe5e55a9d7b"}
+{"level":30,"time":"2022-01-30T16:28:23.196Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method waitForDownload"}
+{"level":30,"time":"2022-01-30T16:28:23.211Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method typeText"}
+{"level":30,"time":"2022-01-30T16:28:23.211Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=vendorTaxID in page."}
+{"level":30,"time":"2022-01-30T16:28:23.543Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method typeText"}
+{"level":30,"time":"2022-01-30T16:28:23.551Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method selectOption"}
+{"level":30,"time":"2022-01-30T16:28:23.551Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=reportYear in page."}
+{"level":30,"time":"2022-01-30T16:28:23.630Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method selectOption"}
+{"level":30,"time":"2022-01-30T16:28:23.638Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method selectOption"}
+{"level":30,"time":"2022-01-30T16:28:23.638Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=reportMonth in page."}
+{"level":30,"time":"2022-01-30T16:28:23.778Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method selectOption"}
+{"level":30,"time":"2022-01-30T16:28:23.785Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method waitForDownload"}
+{"level":30,"time":"2022-01-30T16:28:23.798Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method click"}
+{"level":30,"time":"2022-01-30T16:28:23.799Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=buttonDownload in page."}
+{"level":30,"time":"2022-01-30T16:28:23.874Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method click"}
+{"level":30,"time":"2022-01-30T16:28:24.606Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"suggestedFilename: Report-DE456232-3.csv saveAs path: C:\\Users\\admin\\AppData\\Local\\robocorp\\temp\\4d65822107fcef2e\\playwright-artifacts-XuHuK3\\c8d86c91-e64e-4170-a6ff-921da207197c"}
+{"level":30,"time":"2022-01-30T16:28:24.606Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method waitForDownload"}
+{"level":30,"time":"2022-01-30T16:28:24.618Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method typeText"}
+{"level":30,"time":"2022-01-30T16:28:24.618Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=vendorTaxID in page."}
+{"level":30,"time":"2022-01-30T16:28:25.075Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method typeText"}
+{"level":30,"time":"2022-01-30T16:28:25.080Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method selectOption"}
+{"level":30,"time":"2022-01-30T16:28:25.080Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=reportYear in page."}
+{"level":30,"time":"2022-01-30T16:28:25.164Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method selectOption"}
+{"level":30,"time":"2022-01-30T16:28:25.170Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method selectOption"}
+{"level":30,"time":"2022-01-30T16:28:25.170Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=reportMonth in page."}
+{"level":30,"time":"2022-01-30T16:28:25.258Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method selectOption"}
+{"level":30,"time":"2022-01-30T16:28:25.267Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method waitForDownload"}
+{"level":30,"time":"2022-01-30T16:28:25.272Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method click"}
+{"level":30,"time":"2022-01-30T16:28:25.273Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=buttonDownload in page."}
+{"level":30,"time":"2022-01-30T16:28:25.350Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method click"}
+{"level":30,"time":"2022-01-30T16:28:25.984Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"suggestedFilename: Report-DE456232-4.csv saveAs path: C:\\Users\\admin\\AppData\\Local\\robocorp\\temp\\4d65822107fcef2e\\playwright-artifacts-XuHuK3\\816c7225-c72a-4f74-9e1c-1af108a05887"}
+{"level":30,"time":"2022-01-30T16:28:25.985Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method waitForDownload"}
+{"level":30,"time":"2022-01-30T16:28:25.997Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method typeText"}
+{"level":30,"time":"2022-01-30T16:28:25.997Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=vendorTaxID in page."}
+{"level":30,"time":"2022-01-30T16:28:26.223Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method typeText"}
+{"level":30,"time":"2022-01-30T16:28:26.232Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method selectOption"}
+{"level":30,"time":"2022-01-30T16:28:26.233Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=reportYear in page."}
+{"level":30,"time":"2022-01-30T16:28:26.344Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method selectOption"}
+{"level":30,"time":"2022-01-30T16:28:26.351Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method selectOption"}
+{"level":30,"time":"2022-01-30T16:28:26.351Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=reportMonth in page."}
+{"level":30,"time":"2022-01-30T16:28:26.623Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method selectOption"}
+{"level":30,"time":"2022-01-30T16:28:26.630Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method waitForDownload"}
+{"level":30,"time":"2022-01-30T16:28:26.640Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method click"}
+{"level":30,"time":"2022-01-30T16:28:26.640Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=buttonDownload in page."}
+{"level":30,"time":"2022-01-30T16:28:26.726Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method click"}
+{"level":30,"time":"2022-01-30T16:28:36.641Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Error of node method waitForDownload"}
 ================= Original suppressed error =================
 page.waitForEvent: Timeout while waiting for event "download"
 =========================== logs ===========================
@@ -111,31 +111,96 @@ waiting for event "download"
   name: 'TimeoutError'
 }
 =============================================================
-{"level":30,"time":"2022-01-23T14:57:40.915Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method typeText"}
-{"level":30,"time":"2022-01-23T14:57:40.915Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=vendorTaxID in page."}
-{"level":30,"time":"2022-01-23T14:57:40.980Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method typeText"}
-{"level":30,"time":"2022-01-23T14:57:40.983Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method selectOption"}
-{"level":30,"time":"2022-01-23T14:57:40.984Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=reportYear in page."}
-{"level":30,"time":"2022-01-23T14:57:41.019Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method selectOption"}
-{"level":30,"time":"2022-01-23T14:57:41.022Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method selectOption"}
-{"level":30,"time":"2022-01-23T14:57:41.022Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=reportMonth in page."}
-{"level":30,"time":"2022-01-23T14:57:41.049Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method selectOption"}
-{"level":30,"time":"2022-01-23T14:57:41.054Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method waitForDownload"}
-{"level":30,"time":"2022-01-23T14:57:41.057Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method click"}
-{"level":30,"time":"2022-01-23T14:57:41.058Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=buttonDownload in page."}
-{"level":30,"time":"2022-01-23T14:57:41.107Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method click"}
-{"level":30,"time":"2022-01-23T14:57:41.657Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"suggestedFilename: Report-DE456232-6.csv saveAs path: C:\\Users\\admin\\AppData\\Local\\robocorp\\temp\\4d65822107fcef2e\\playwright-artifacts-NvhpD1\\99bc7fb7-fdea-4d93-b5dc-bcb5771bc48b"}
-{"level":30,"time":"2022-01-23T14:57:41.657Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method waitForDownload"}
-{"level":30,"time":"2022-01-23T14:57:41.661Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method typeText"}
-{"level":30,"time":"2022-01-23T14:57:41.661Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=vendorTaxID in page."}
-{"level":30,"time":"2022-01-23T14:57:41.704Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method typeText"}
-{"level":30,"time":"2022-01-23T14:57:41.707Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method selectOption"}
-{"level":30,"time":"2022-01-23T14:57:41.707Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=reportYear in page."}
-{"level":30,"time":"2022-01-23T14:57:41.735Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method selectOption"}
-{"level":30,"time":"2022-01-23T14:57:41.739Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method selectOption"}
-{"level":30,"time":"2022-01-23T14:57:41.739Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=reportMonth in page."}
-{"level":30,"time":"2022-01-23T14:57:41.769Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method selectOption"}
-{"level":30,"time":"2022-01-23T14:57:41.775Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method waitForDownload"}
-{"level":30,"time":"2022-01-23T14:57:41.778Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method click"}
-{"level":30,"time":"2022-01-23T14:57:41.778Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=buttonDownload in page."}
-{"level":30,"time":"2022-01-23T14:57:41.837Z","pid":13288,"hostname":"DESKTOP-RE44GK5","msg":"End of node method click"}
+{"level":30,"time":"2022-01-30T16:28:37.451Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method typeText"}
+{"level":30,"time":"2022-01-30T16:28:37.451Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=vendorTaxID in page."}
+{"level":30,"time":"2022-01-30T16:28:37.569Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method typeText"}
+{"level":30,"time":"2022-01-30T16:28:37.572Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method selectOption"}
+{"level":30,"time":"2022-01-30T16:28:37.573Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=reportYear in page."}
+{"level":30,"time":"2022-01-30T16:28:37.649Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method selectOption"}
+{"level":30,"time":"2022-01-30T16:28:37.653Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method selectOption"}
+{"level":30,"time":"2022-01-30T16:28:37.653Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=reportMonth in page."}
+{"level":30,"time":"2022-01-30T16:28:37.718Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method selectOption"}
+{"level":30,"time":"2022-01-30T16:28:37.729Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method waitForDownload"}
+{"level":30,"time":"2022-01-30T16:28:37.737Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method click"}
+{"level":30,"time":"2022-01-30T16:28:37.737Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=buttonDownload in page."}
+{"level":30,"time":"2022-01-30T16:28:37.832Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method click"}
+{"level":30,"time":"2022-01-30T16:28:38.590Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"suggestedFilename: Report-DE456232-6.csv saveAs path: C:\\Users\\admin\\AppData\\Local\\robocorp\\temp\\4d65822107fcef2e\\playwright-artifacts-XuHuK3\\40f31412-6e47-4d90-8ebf-54375b6809b6"}
+{"level":30,"time":"2022-01-30T16:28:38.590Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method waitForDownload"}
+{"level":30,"time":"2022-01-30T16:28:38.602Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method typeText"}
+{"level":30,"time":"2022-01-30T16:28:38.602Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=vendorTaxID in page."}
+{"level":30,"time":"2022-01-30T16:28:38.768Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method typeText"}
+{"level":30,"time":"2022-01-30T16:28:38.771Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method selectOption"}
+{"level":30,"time":"2022-01-30T16:28:38.771Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=reportYear in page."}
+{"level":30,"time":"2022-01-30T16:28:38.915Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method selectOption"}
+{"level":30,"time":"2022-01-30T16:28:38.921Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method selectOption"}
+{"level":30,"time":"2022-01-30T16:28:38.924Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=reportMonth in page."}
+{"level":30,"time":"2022-01-30T16:28:39.034Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method selectOption"}
+{"level":30,"time":"2022-01-30T16:28:39.043Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method waitForDownload"}
+{"level":30,"time":"2022-01-30T16:28:39.055Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method click"}
+{"level":30,"time":"2022-01-30T16:28:39.055Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=buttonDownload in page."}
+{"level":30,"time":"2022-01-30T16:28:39.188Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method click"}
+{"level":30,"time":"2022-01-30T16:28:49.047Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Error of node method waitForDownload"}
+================= Original suppressed error =================
+page.waitForEvent: Timeout while waiting for event "download"
+=========================== logs ===========================
+waiting for event "download"
+============================================================
+    at waitForDownload (C:\Users\admin\AppData\Local\robocorp\holotree\b1f3c244e_9ba66f27\lib\site-packages\Browser\wrapper\index.js:6711:38)
+    at PlaywrightServer.waitForDownload (C:\Users\admin\AppData\Local\robocorp\holotree\b1f3c244e_9ba66f27\lib\site-packages\Browser\wrapper\index.js:7316:34)
+    at handleUnary (C:\Users\admin\AppData\Local\robocorp\holotree\b1f3c244e_9ba66f27\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:451:13) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2022-01-30T16:28:49.621Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method typeText"}
+{"level":30,"time":"2022-01-30T16:28:49.621Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=vendorTaxID in page."}
+{"level":30,"time":"2022-01-30T16:28:49.712Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method typeText"}
+{"level":30,"time":"2022-01-30T16:28:49.715Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method selectOption"}
+{"level":30,"time":"2022-01-30T16:28:49.715Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=reportYear in page."}
+{"level":30,"time":"2022-01-30T16:28:49.758Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method selectOption"}
+{"level":30,"time":"2022-01-30T16:28:49.762Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method selectOption"}
+{"level":30,"time":"2022-01-30T16:28:49.762Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=reportMonth in page."}
+{"level":30,"time":"2022-01-30T16:28:49.796Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method selectOption"}
+{"level":30,"time":"2022-01-30T16:28:49.802Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method waitForDownload"}
+{"level":30,"time":"2022-01-30T16:28:49.807Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method click"}
+{"level":30,"time":"2022-01-30T16:28:49.808Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=buttonDownload in page."}
+{"level":30,"time":"2022-01-30T16:28:49.856Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method click"}
+{"level":30,"time":"2022-01-30T16:28:59.809Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Error of node method waitForDownload"}
+================= Original suppressed error =================
+page.waitForEvent: Timeout while waiting for event "download"
+=========================== logs ===========================
+waiting for event "download"
+============================================================
+    at waitForDownload (C:\Users\admin\AppData\Local\robocorp\holotree\b1f3c244e_9ba66f27\lib\site-packages\Browser\wrapper\index.js:6711:38)
+    at PlaywrightServer.waitForDownload (C:\Users\admin\AppData\Local\robocorp\holotree\b1f3c244e_9ba66f27\lib\site-packages\Browser\wrapper\index.js:7316:34)
+    at handleUnary (C:\Users\admin\AppData\Local\robocorp\holotree\b1f3c244e_9ba66f27\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:451:13) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2022-01-30T16:29:00.401Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method typeText"}
+{"level":30,"time":"2022-01-30T16:29:00.401Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=vendorTaxID in page."}
+{"level":30,"time":"2022-01-30T16:29:00.504Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method typeText"}
+{"level":30,"time":"2022-01-30T16:29:00.507Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method selectOption"}
+{"level":30,"time":"2022-01-30T16:29:00.507Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=reportYear in page."}
+{"level":30,"time":"2022-01-30T16:29:00.555Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method selectOption"}
+{"level":30,"time":"2022-01-30T16:29:00.558Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method selectOption"}
+{"level":30,"time":"2022-01-30T16:29:00.559Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=reportMonth in page."}
+{"level":30,"time":"2022-01-30T16:29:00.590Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method selectOption"}
+{"level":30,"time":"2022-01-30T16:29:00.595Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method waitForDownload"}
+{"level":30,"time":"2022-01-30T16:29:00.654Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method click"}
+{"level":30,"time":"2022-01-30T16:29:00.654Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=buttonDownload in page."}
+{"level":30,"time":"2022-01-30T16:29:00.709Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method click"}
+{"level":30,"time":"2022-01-30T16:29:01.594Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"suggestedFilename: Report-DE456232-9.csv saveAs path: C:\\Users\\admin\\AppData\\Local\\robocorp\\temp\\4d65822107fcef2e\\playwright-artifacts-XuHuK3\\58dacdd6-3f30-4381-ac8f-efd8510c76d9"}
+{"level":30,"time":"2022-01-30T16:29:01.594Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method waitForDownload"}
+{"level":30,"time":"2022-01-30T16:29:01.606Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method typeText"}
+{"level":30,"time":"2022-01-30T16:29:01.607Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=vendorTaxID in page."}
+{"level":30,"time":"2022-01-30T16:29:01.726Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method typeText"}
+{"level":30,"time":"2022-01-30T16:29:01.733Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method selectOption"}
+{"level":30,"time":"2022-01-30T16:29:01.733Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=reportYear in page."}
+{"level":30,"time":"2022-01-30T16:29:01.778Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method selectOption"}
+{"level":30,"time":"2022-01-30T16:29:01.785Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method selectOption"}
+{"level":30,"time":"2022-01-30T16:29:01.785Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=reportMonth in page."}
+{"level":30,"time":"2022-01-30T16:29:01.874Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method selectOption"}
+{"level":30,"time":"2022-01-30T16:29:01.886Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method waitForDownload"}
+{"level":30,"time":"2022-01-30T16:29:01.888Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Start of node method click"}
+{"level":30,"time":"2022-01-30T16:29:01.888Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"Strict mode is enabled, find Locator with id=buttonDownload in page."}
+{"level":30,"time":"2022-01-30T16:29:01.937Z","pid":5276,"hostname":"DESKTOP-RE44GK5","msg":"End of node method click"}

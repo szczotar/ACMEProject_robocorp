@@ -22,7 +22,7 @@ from bs4 import BeautifulSoup
 
 
 handler = logging.handlers.WatchedFileHandler(
-    os.environ.get("LOGFILE", r"C:\Users\admin\Desktop\Robocorp\ACME_Project\output\logs.log"))
+    os.environ.get("LOGFILE", r"C:\Users\admin\Desktop\Robocorp\ACME_Project\output\stdout.log"))
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 handler.setFormatter(formatter)
 root = logging.getLogger()
@@ -65,6 +65,7 @@ def Scrape_Table():
 
         except (AssertionError) as err:
              logging.error(datetime.datetime.now().strftime("%d-%m-%Y %H:%M:%S") + "no more pages")
+             print("error")
              break
   
     WI4Table = DataScraped.loc[DataScraped["Type"] == "WI4"]

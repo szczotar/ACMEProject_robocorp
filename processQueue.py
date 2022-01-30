@@ -21,11 +21,11 @@ from populateQueue import Navigate_WorkItems
 import glob
 
 
-
+queue = WorkItems()
 browser = Playwright(timeout = "10s")
 secrets = Vault()
 http = HTTP()
-Chrom = browser.new_browser(browser = SupportedBrowsers["chromium"])
+Chrom = browser.new_browser(browser = SupportedBrowsers["chromium"], headless=False)
                             # downloadsPath =r"C:\Users\admin\Downloads")
 context =  browser.new_context(acceptDownloads= True, javaScriptEnabled = True, ignoreHTTPSErrors = True,bypassCSP=True)
 os.chdir("output")
@@ -95,33 +95,47 @@ def Upload_YearlyReport(TaxID):
     #     browser.reload()
     #     continue
  
+def work():
+    
+     Navigate_MonthlyReports()
+     Collect_repotsFromYear(queue.get_work_item_payload()['TaxID'])
+     Combine_MonthlyReports(queue.get_work_item_payload()['TaxID'])
+     Navigate_Dashboard()
+     Navigate_UploadYearlyReports()
+     Upload_YearlyReport(queue.get_work_item_payload()['TaxID'])
+     Navigate_Dashboard()
+     queue.release_input_work_item(state= State.DONE)
                   
 def minimal_task():
     
     openWebsite()
     LogIn()
     
-    queue = WorkItems()
-    while True:
+    # queue = WorkItems()
+    queue.get_input_work_item()
+    queue.for_each_input_work_item(work)
 
-        try:
-            queue.get_input_work_item()
-            payload = queue.get_work_item_payload()
+
+    # while True:
+
+    #     try:
+    #         queue.get_input_work_item()
+    #         payload = queue.get_work_item_payload()
         
-            if not payload:
-                break
-            Navigate_MonthlyReports()
-            Collect_repotsFromYear(payload['TaxID'])
-            Combine_MonthlyReports(payload['TaxID'])
-            Navigate_Dashboard()
-            Navigate_UploadYearlyReports()
-            Upload_YearlyReport(payload['TaxID'])
-            Navigate_Dashboard()
+    #         if not payload:
+    #             break
+    #         Navigate_MonthlyReports()
+    #         Collect_repotsFromYear(payload['TaxID'])
+    #         Combine_MonthlyReports(payload['TaxID'])
+    #         Navigate_Dashboard()
+    #         Navigate_UploadYearlyReports()
+    #         Upload_YearlyReport(payload['TaxID'])
+    #         Navigate_Dashboard()
 
-            queue.release_input_work_item(state= State.DONE)
+    #         queue.release_input_work_item(state= State.DONE)
 
-        except:
-            False
+    #     except:
+    #         False
 
 
 if __name__ == "__main__":
