@@ -29,7 +29,7 @@ os.chdir("output")
 # root.setLevel(os.environ.get("LOGLEVEL", "INFO"))
 # root.addHandler(handler)
 
-logging.basicConfig(filename=f"{os.getcwd()}/log.html",level=logging.INFO)
+logging.basicConfig(filename=f"{os.getcwd()}/logs.log",level=logging.INFO)
 
 browser = Playwright()
 secrets = Vault()
