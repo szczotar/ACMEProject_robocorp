@@ -19,21 +19,22 @@ import time
 from RPA.HTTP import HTTP
 import requests
 from bs4 import BeautifulSoup
+os.chdir("output")
 
+# handler = logging.handlers.WatchedFileHandler(
+#     os.environ.get("LOGFILE", r"C:\Users\admin\Desktop\Robocorp\ACME_Project\output\stdout.log"))
+# formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+# handler.setFormatter(formatter)
+# root = logging.getLogger()
+# root.setLevel(os.environ.get("LOGLEVEL", "INFO"))
+# root.addHandler(handler)
 
-handler = logging.handlers.WatchedFileHandler(
-    os.environ.get("LOGFILE", r"C:\Users\admin\Desktop\Robocorp\ACME_Project\output\stdout.log"))
-formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-handler.setFormatter(formatter)
-root = logging.getLogger()
-root.setLevel(os.environ.get("LOGLEVEL", "INFO"))
-root.addHandler(handler)
-
+logging.basicConfig(filename=f"{os.getcwd()}/log.html",level=logging.INFO)
 
 browser = Playwright()
 secrets = Vault()
 http = HTTP()
-Chrom = browser.new_browser(browser = SupportedBrowsers["chromium"])
+Chrom = browser.new_browser(browser = SupportedBrowsers["chromium"], headless = False)
 
 def openWebsite():
     try:
@@ -64,13 +65,11 @@ def Scrape_Table():
             browser.click("text=>")
 
         except (AssertionError) as err:
-             logging.error(datetime.datetime.now().strftime("%d-%m-%Y %H:%M:%S") + "no more pages")
-             print("error")
+             logging.error(datetime.datetime.now().strftime("%d-%m-%Y %H:%M:%S") + " no more pages")
              break
   
     WI4Table = DataScraped.loc[DataScraped["Type"] == "WI4"]
     WI4Table = WI4Table.reset_index(drop=True)
-    print(WI4Table)
     return WI4Table
 
 def Get_TaxIDs(Table):

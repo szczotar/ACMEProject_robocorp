@@ -1,11 +1,10 @@
 tasks:
-  Run consumer:
-    shell: python processQueue.py
+  consumer:
+    shell: python processQueue.py 
 
-  Run producer:
-    shell: python populateQueue.py
-   
-   
+  producer:
+    shell: python populateQueue.py 
+
 condaConfigFile: conda.yaml
 artifactsDir: output
 PATH:

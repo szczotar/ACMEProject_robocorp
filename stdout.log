@@ -1,0 +1,425 @@
+INFO:RobotFramework:{"browser": "chromium", "headless": false, "handleSIGINT": true, "handleSIGTERM": true, "handleSIGHUP": true, "timeout": 30000.0, "devtools": false, "slowMo": 0.0, "tracesDir": "browser\\traces\\c40282e7-7d3d-4813-aa61-2b99c74d5edd"}
+INFO:RobotFramework:Starting Browser process C:\Users\admin\AppData\Local\robocorp\holotree\b1f3c244e_9ba66f27\lib\site-packages\Browser\wrapper\index.js using port 63497
+DEBUG:RobotFramework:Connected to the playwright process at port 63497: body: "OK"
+
+INFO:RobotFramework:Successfully created browser with options: {"browser":"chromium","headless":false,"handleSIGINT":true,"handleSIGTERM":true,"handleSIGHUP":true,"timeout":30000,"devtools":false,"slowMo":0,"tracesDir":"browser\\traces\\c40282e7-7d3d-4813-aa61-2b99c74d5edd"}
+INFO:RPA.Robocorp.Vault:Resolving path: C:\Users\admin\Desktop\Robocorp\vault.json
+INFO:RobotFramework:Successfully initialized new page object and opened url: https://acme-test.uipath.com
+INFO:RobotFramework:No context was open. New context was automatically opened when this page is created.
+DEBUG:RobotFramework:Video is not enabled.
+INFO:root:30-01-2022 19:22:32 login success
+INFO:RobotFramework:Types the text 'artur.szczotarski@digitalworkforce.com' in the given field.
+DEBUG:RobotFramework:Typed text "artur.szczotarski@digitalworkforce.com" on "id=email"
+INFO:RobotFramework:Types the text 'Szczotar93' in the given field.
+DEBUG:RobotFramework:Typed text "Szczotar93" on "id=password"
+DEBUG:RobotFramework:Click options are: {"button": "left", "clickCount": 1, "force": false, "noWaitAfter": false}
+DEBUG:RobotFramework:Clicked element: 'xpath=/html/body/div/div[2]/div/div/div/form/button' with options: '{"button": "left", "clickCount": 1, "force": false, "noWaitAfter": false}'
+DEBUG:RobotFramework:Click options are: {"button": "left", "clickCount": 1, "force": false, "noWaitAfter": false}
+DEBUG:RobotFramework:Clicked element: 'xpath=//*[@id="dashmenu"]/div[2]/a/button' with options: '{"button": "left", "clickCount": 1, "force": false, "noWaitAfter": false}'
+DEBUG:RobotFramework:Property received successfully.
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.06527280807495117 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+DEBUG:RobotFramework:Click options are: {"button": "left", "clickCount": 1, "force": false, "noWaitAfter": false}
+DEBUG:RobotFramework:Clicked element: 'text=>' with options: '{"button": "left", "clickCount": 1, "force": false, "noWaitAfter": false}'
+DEBUG:RobotFramework:Property received successfully.
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.15491175651550293 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+DEBUG:RobotFramework:Click options are: {"button": "left", "clickCount": 1, "force": false, "noWaitAfter": false}
+DEBUG:RobotFramework:Clicked element: 'text=>' with options: '{"button": "left", "clickCount": 1, "force": false, "noWaitAfter": false}'
+DEBUG:RobotFramework:Property received successfully.
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.20288634300231934 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+DEBUG:RobotFramework:Click options are: {"button": "left", "clickCount": 1, "force": false, "noWaitAfter": false}
+DEBUG:RobotFramework:Clicked element: 'text=>' with options: '{"button": "left", "clickCount": 1, "force": false, "noWaitAfter": false}'
+DEBUG:RobotFramework:Property received successfully.
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.12592720985412598 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+DEBUG:RobotFramework:Click options are: {"button": "left", "clickCount": 1, "force": false, "noWaitAfter": false}
+DEBUG:RobotFramework:Clicked element: 'text=>' with options: '{"button": "left", "clickCount": 1, "force": false, "noWaitAfter": false}'
+DEBUG:RobotFramework:Property received successfully.
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.16290569305419922 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+DEBUG:RobotFramework:Click options are: {"button": "left", "clickCount": 1, "force": false, "noWaitAfter": false}
+DEBUG:RobotFramework:Clicked element: 'text=>' with options: '{"button": "left", "clickCount": 1, "force": false, "noWaitAfter": false}'
+DEBUG:RobotFramework:Property received successfully.
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.13792204856872559 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+DEBUG:RobotFramework:Click options are: {"button": "left", "clickCount": 1, "force": false, "noWaitAfter": false}
+DEBUG:RobotFramework:Clicked element: 'text=>' with options: '{"button": "left", "clickCount": 1, "force": false, "noWaitAfter": false}'
+DEBUG:RobotFramework:Property received successfully.
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.16690373420715332 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+DEBUG:RobotFramework:Click options are: {"button": "left", "clickCount": 1, "force": false, "noWaitAfter": false}
+DEBUG:RobotFramework:Clicked element: 'text=>' with options: '{"button": "left", "clickCount": 1, "force": false, "noWaitAfter": false}'
+DEBUG:RobotFramework:Property received successfully.
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.14291810989379883 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+DEBUG:RobotFramework:Click options are: {"button": "left", "clickCount": 1, "force": false, "noWaitAfter": false}
+DEBUG:RobotFramework:Clicked element: 'text=>' with options: '{"button": "left", "clickCount": 1, "force": false, "noWaitAfter": false}'
+DEBUG:RobotFramework:Property received successfully.
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.1873631477355957 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+DEBUG:RobotFramework:Click options are: {"button": "left", "clickCount": 1, "force": false, "noWaitAfter": false}
+DEBUG:RobotFramework:Clicked element: 'text=>' with options: '{"button": "left", "clickCount": 1, "force": false, "noWaitAfter": false}'
+DEBUG:RobotFramework:Property received successfully.
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.13592290878295898 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+DEBUG:RobotFramework:Click options are: {"button": "left", "clickCount": 1, "force": false, "noWaitAfter": false}
+DEBUG:RobotFramework:Clicked element: 'text=>' with options: '{"button": "left", "clickCount": 1, "force": false, "noWaitAfter": false}'
+DEBUG:RobotFramework:Property received successfully.
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.1339254379272461 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+DEBUG:RobotFramework:Click options are: {"button": "left", "clickCount": 1, "force": false, "noWaitAfter": false}
+DEBUG:RobotFramework:Clicked element: 'text=>' with options: '{"button": "left", "clickCount": 1, "force": false, "noWaitAfter": false}'
+DEBUG:RobotFramework:Property received successfully.
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.14690566062927246 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+DEBUG:RobotFramework:Click options are: {"button": "left", "clickCount": 1, "force": false, "noWaitAfter": false}
+DEBUG:RobotFramework:Clicked element: 'text=>' with options: '{"button": "left", "clickCount": 1, "force": false, "noWaitAfter": false}'
+DEBUG:RobotFramework:Property received successfully.
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.09894347190856934 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+DEBUG:RobotFramework:Click options are: {"button": "left", "clickCount": 1, "force": false, "noWaitAfter": false}
+ERROR:root:30-01-2022 19:22:54 no more pages
+INFO:root:Resolving input path: %{ROBOT_ROOT}/devdata/work-items-in/split-orders-file-test-input/work-items.json
+WARNING:root:No input work items file found: %{ROBOT_ROOT}\devdata\work-items-in\split-orders-file-test-input\work-items.json
+INFO:RobotFramework:Successfully initialized new page object and opened url: https://acme-test.uipath.com/work-items/52296300
+DEBUG:RobotFramework:Video is not enabled.
+DEBUG:RobotFramework:Text received successfully.
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.10537457466125488 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+INFO:root:WIID = 52296300
+INFO:root:TaxID = DE456232
+INFO:root:Saved into output file: C:\Users\admin\Desktop\Robocorp\ACME_Project\devdata\work-items-out\run-1\work-items.json
+INFO:RobotFramework:[{"type": "chromium", "id": "browser=fecaa372-0eec-4a7e-9305-0e5ff31c0c6b", "contexts": [{"type": "context", "id": "context=16808708-a89f-42ee-a0a8-39e28e2c700a", "activePage": "page=b6f78f44-c53b-4ecf-9cee-e13904eaaf2a", "pages": [{"type": "page", "title": "ACME System 1 - Work Items", "url": "https://acme-test.uipath.com/work-items?page=13", "id": "page=82750e46-d24d-4b7a-89c2-a1a119d64cbd", "timestamp": 1643566950.922}, {"type": "page", "title": "ACME System 1 - Work Items", "url": "https://acme-test.uipath.com/work-items/52296300", "id": "page=b6f78f44-c53b-4ecf-9cee-e13904eaaf2a", "timestamp": 1643566974.497}]}], "activeContext": "context=16808708-a89f-42ee-a0a8-39e28e2c700a", "activeBrowser": true}]
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.03298234939575195 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+INFO:RobotFramework:Active context id
+INFO:RobotFramework:Successfully changed active browser
+INFO:RobotFramework:Returned active context id
+INFO:RobotFramework:Successfully changed active context
+INFO:RobotFramework:Successfully closed Page
+INFO:RobotFramework:Successfully initialized new page object and opened url: https://acme-test.uipath.com/work-items/52296297
+DEBUG:RobotFramework:Video is not enabled.
+DEBUG:RobotFramework:Text received successfully.
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.07496023178100586 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+INFO:root:WIID = 52296297
+INFO:root:TaxID = IT145632
+INFO:root:Saved into output file: C:\Users\admin\Desktop\Robocorp\ACME_Project\devdata\work-items-out\run-1\work-items.json
+INFO:RobotFramework:[{"type": "chromium", "id": "browser=fecaa372-0eec-4a7e-9305-0e5ff31c0c6b", "contexts": [{"type": "context", "id": "context=16808708-a89f-42ee-a0a8-39e28e2c700a", "activePage": "page=4a9ad6b8-e7cc-42b6-8788-e7b05ed9defb", "pages": [{"type": "page", "title": "ACME System 1 - Work Items", "url": "https://acme-test.uipath.com/work-items?page=13", "id": "page=82750e46-d24d-4b7a-89c2-a1a119d64cbd", "timestamp": 1643566950.922}, {"type": "page", "title": "ACME System 1 - Work Items", "url": "https://acme-test.uipath.com/work-items/52296297", "id": "page=4a9ad6b8-e7cc-42b6-8788-e7b05ed9defb", "timestamp": 1643566976.017}]}], "activeContext": "context=16808708-a89f-42ee-a0a8-39e28e2c700a", "activeBrowser": true}]
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.008994579315185547 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+INFO:RobotFramework:Active context id
+INFO:RobotFramework:Successfully changed active browser
+INFO:RobotFramework:Returned active context id
+INFO:RobotFramework:Successfully changed active context
+INFO:RobotFramework:Successfully closed Page
+INFO:RobotFramework:Successfully initialized new page object and opened url: https://acme-test.uipath.com/work-items/52296288
+DEBUG:RobotFramework:Video is not enabled.
+DEBUG:RobotFramework:Text received successfully.
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.06896162033081055 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+INFO:root:WIID = 52296288
+INFO:root:TaxID = RO892123
+INFO:root:Saved into output file: C:\Users\admin\Desktop\Robocorp\ACME_Project\devdata\work-items-out\run-1\work-items.json
+INFO:RobotFramework:[{"type": "chromium", "id": "browser=fecaa372-0eec-4a7e-9305-0e5ff31c0c6b", "contexts": [{"type": "context", "id": "context=16808708-a89f-42ee-a0a8-39e28e2c700a", "activePage": "page=c2a5168c-680a-4394-9a64-6a4557fb2395", "pages": [{"type": "page", "title": "ACME System 1 - Work Items", "url": "https://acme-test.uipath.com/work-items?page=13", "id": "page=82750e46-d24d-4b7a-89c2-a1a119d64cbd", "timestamp": 1643566950.922}, {"type": "page", "title": "ACME System 1 - Work Items", "url": "https://acme-test.uipath.com/work-items/52296288", "id": "page=c2a5168c-680a-4394-9a64-6a4557fb2395", "timestamp": 1643566977.113}]}], "activeContext": "context=16808708-a89f-42ee-a0a8-39e28e2c700a", "activeBrowser": true}]
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.0 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+INFO:RobotFramework:Active context id
+INFO:RobotFramework:Successfully changed active browser
+INFO:RobotFramework:Returned active context id
+INFO:RobotFramework:Successfully changed active context
+INFO:RobotFramework:Successfully closed Page
+INFO:RobotFramework:Successfully initialized new page object and opened url: https://acme-test.uipath.com/work-items/52296292
+DEBUG:RobotFramework:Video is not enabled.
+DEBUG:RobotFramework:Text received successfully.
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.0871591567993164 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+INFO:root:WIID = 52296292
+INFO:root:TaxID = RO874232
+INFO:root:Saved into output file: C:\Users\admin\Desktop\Robocorp\ACME_Project\devdata\work-items-out\run-1\work-items.json
+INFO:RobotFramework:[{"type": "chromium", "id": "browser=fecaa372-0eec-4a7e-9305-0e5ff31c0c6b", "contexts": [{"type": "context", "id": "context=16808708-a89f-42ee-a0a8-39e28e2c700a", "activePage": "page=0a9d2725-e83a-4195-bd49-a00aabf3bc5d", "pages": [{"type": "page", "title": "ACME System 1 - Work Items", "url": "https://acme-test.uipath.com/work-items?page=13", "id": "page=82750e46-d24d-4b7a-89c2-a1a119d64cbd", "timestamp": 1643566950.922}, {"type": "page", "title": "ACME System 1 - Work Items", "url": "https://acme-test.uipath.com/work-items/52296292", "id": "page=0a9d2725-e83a-4195-bd49-a00aabf3bc5d", "timestamp": 1643566978.291}]}], "activeContext": "context=16808708-a89f-42ee-a0a8-39e28e2c700a", "activeBrowser": true}]
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.0 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+INFO:RobotFramework:Active context id
+INFO:RobotFramework:Successfully changed active browser
+INFO:RobotFramework:Returned active context id
+INFO:RobotFramework:Successfully changed active context
+INFO:RobotFramework:Successfully closed Page
+INFO:RobotFramework:Successfully initialized new page object and opened url: https://acme-test.uipath.com/work-items/52296296
+DEBUG:RobotFramework:Video is not enabled.
+DEBUG:RobotFramework:Text received successfully.
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.05461835861206055 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+INFO:root:WIID = 52296296
+INFO:root:TaxID = FR322345
+INFO:root:Saved into output file: C:\Users\admin\Desktop\Robocorp\ACME_Project\devdata\work-items-out\run-1\work-items.json
+INFO:RobotFramework:[{"type": "chromium", "id": "browser=fecaa372-0eec-4a7e-9305-0e5ff31c0c6b", "contexts": [{"type": "context", "id": "context=16808708-a89f-42ee-a0a8-39e28e2c700a", "activePage": "page=0115caaf-65d2-48fe-84d2-61d2625b535a", "pages": [{"type": "page", "title": "ACME System 1 - Work Items", "url": "https://acme-test.uipath.com/work-items?page=13", "id": "page=82750e46-d24d-4b7a-89c2-a1a119d64cbd", "timestamp": 1643566950.922}, {"type": "page", "title": "ACME System 1 - Work Items", "url": "https://acme-test.uipath.com/work-items/52296296", "id": "page=0115caaf-65d2-48fe-84d2-61d2625b535a", "timestamp": 1643566979.792}]}], "activeContext": "context=16808708-a89f-42ee-a0a8-39e28e2c700a", "activeBrowser": true}]
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.015611410140991211 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+INFO:RobotFramework:Active context id
+INFO:RobotFramework:Successfully changed active browser
+INFO:RobotFramework:Returned active context id
+INFO:RobotFramework:Successfully changed active context
+INFO:RobotFramework:Successfully closed Page
+INFO:RobotFramework:Successfully initialized new page object and opened url: https://acme-test.uipath.com/work-items/52296289
+DEBUG:RobotFramework:Video is not enabled.
+DEBUG:RobotFramework:Text received successfully.
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.048972129821777344 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+INFO:root:WIID = 52296289
+INFO:root:TaxID = RO123456
+INFO:root:Saved into output file: C:\Users\admin\Desktop\Robocorp\ACME_Project\devdata\work-items-out\run-1\work-items.json
+INFO:RobotFramework:[{"type": "chromium", "id": "browser=fecaa372-0eec-4a7e-9305-0e5ff31c0c6b", "contexts": [{"type": "context", "id": "context=16808708-a89f-42ee-a0a8-39e28e2c700a", "activePage": "page=fa7acf99-d46b-4e6b-9c7a-b4b63ddbb470", "pages": [{"type": "page", "title": "ACME System 1 - Work Items", "url": "https://acme-test.uipath.com/work-items?page=13", "id": "page=82750e46-d24d-4b7a-89c2-a1a119d64cbd", "timestamp": 1643566950.922}, {"type": "page", "title": "ACME System 1 - Work Items", "url": "https://acme-test.uipath.com/work-items/52296289", "id": "page=fa7acf99-d46b-4e6b-9c7a-b4b63ddbb470", "timestamp": 1643566980.983}]}], "activeContext": "context=16808708-a89f-42ee-a0a8-39e28e2c700a", "activeBrowser": true}]
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.0049970149993896484 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+INFO:RobotFramework:Active context id
+INFO:RobotFramework:Successfully changed active browser
+INFO:RobotFramework:Returned active context id
+INFO:RobotFramework:Successfully changed active context
+INFO:RobotFramework:Successfully closed Page
+INFO:RobotFramework:Successfully initialized new page object and opened url: https://acme-test.uipath.com/work-items/52296286
+DEBUG:RobotFramework:Video is not enabled.
+DEBUG:RobotFramework:Text received successfully.
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.05996298789978027 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+INFO:root:WIID = 52296286
+INFO:root:TaxID = RO094782
+INFO:root:Saved into output file: C:\Users\admin\Desktop\Robocorp\ACME_Project\devdata\work-items-out\run-1\work-items.json
+INFO:RobotFramework:[{"type": "chromium", "id": "browser=fecaa372-0eec-4a7e-9305-0e5ff31c0c6b", "contexts": [{"type": "context", "id": "context=16808708-a89f-42ee-a0a8-39e28e2c700a", "activePage": "page=5ce7921b-7a81-4aee-bfba-c9722009847a", "pages": [{"type": "page", "title": "ACME System 1 - Work Items", "url": "https://acme-test.uipath.com/work-items?page=13", "id": "page=82750e46-d24d-4b7a-89c2-a1a119d64cbd", "timestamp": 1643566950.922}, {"type": "page", "title": "ACME System 1 - Work Items", "url": "https://acme-test.uipath.com/work-items/52296286", "id": "page=5ce7921b-7a81-4aee-bfba-c9722009847a", "timestamp": 1643566982.072}]}], "activeContext": "context=16808708-a89f-42ee-a0a8-39e28e2c700a", "activeBrowser": true}]
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.005999088287353516 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+INFO:RobotFramework:Active context id
+INFO:RobotFramework:Successfully changed active browser
+INFO:RobotFramework:Returned active context id
+INFO:RobotFramework:Successfully changed active context
+INFO:RobotFramework:Successfully closed Page
+INFO:RobotFramework:Successfully initialized new page object and opened url: https://acme-test.uipath.com/work-items/52296293
+DEBUG:RobotFramework:Video is not enabled.
+DEBUG:RobotFramework:Text received successfully.
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.04497528076171875 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+INFO:root:WIID = 52296293
+INFO:root:TaxID = RO212121
+INFO:root:Saved into output file: C:\Users\admin\Desktop\Robocorp\ACME_Project\devdata\work-items-out\run-1\work-items.json
+INFO:RobotFramework:[{"type": "chromium", "id": "browser=fecaa372-0eec-4a7e-9305-0e5ff31c0c6b", "contexts": [{"type": "context", "id": "context=16808708-a89f-42ee-a0a8-39e28e2c700a", "activePage": "page=aa3ae5e2-afa6-49a2-bc04-3f29867d5a7b", "pages": [{"type": "page", "title": "ACME System 1 - Work Items", "url": "https://acme-test.uipath.com/work-items?page=13", "id": "page=82750e46-d24d-4b7a-89c2-a1a119d64cbd", "timestamp": 1643566950.922}, {"type": "page", "title": "ACME System 1 - Work Items", "url": "https://acme-test.uipath.com/work-items/52296293", "id": "page=aa3ae5e2-afa6-49a2-bc04-3f29867d5a7b", "timestamp": 1643566983.144}]}], "activeContext": "context=16808708-a89f-42ee-a0a8-39e28e2c700a", "activeBrowser": true}]
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.005997180938720703 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+INFO:RobotFramework:Active context id
+INFO:RobotFramework:Successfully changed active browser
+INFO:RobotFramework:Returned active context id
+INFO:RobotFramework:Successfully changed active context
+INFO:RobotFramework:Successfully closed Page
+INFO:RobotFramework:Successfully initialized new page object and opened url: https://acme-test.uipath.com/work-items/52296290
+DEBUG:RobotFramework:Video is not enabled.
+DEBUG:RobotFramework:Text received successfully.
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.04597353935241699 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+INFO:root:WIID = 52296290
+INFO:root:TaxID = FR453231
+INFO:root:Saved into output file: C:\Users\admin\Desktop\Robocorp\ACME_Project\devdata\work-items-out\run-1\work-items.json
+INFO:RobotFramework:[{"type": "chromium", "id": "browser=fecaa372-0eec-4a7e-9305-0e5ff31c0c6b", "contexts": [{"type": "context", "id": "context=16808708-a89f-42ee-a0a8-39e28e2c700a", "activePage": "page=acb6e25f-4167-466d-abd1-45bdaab52336", "pages": [{"type": "page", "title": "ACME System 1 - Work Items", "url": "https://acme-test.uipath.com/work-items?page=13", "id": "page=82750e46-d24d-4b7a-89c2-a1a119d64cbd", "timestamp": 1643566950.922}, {"type": "page", "title": "ACME System 1 - Work Items", "url": "https://acme-test.uipath.com/work-items/52296290", "id": "page=acb6e25f-4167-466d-abd1-45bdaab52336", "timestamp": 1643566983.985}]}], "activeContext": "context=16808708-a89f-42ee-a0a8-39e28e2c700a", "activeBrowser": true}]
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.006996631622314453 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+INFO:RobotFramework:Active context id
+INFO:RobotFramework:Successfully changed active browser
+INFO:RobotFramework:Returned active context id
+INFO:RobotFramework:Successfully changed active context
+INFO:RobotFramework:Successfully closed Page
+INFO:RobotFramework:Successfully initialized new page object and opened url: https://acme-test.uipath.com/work-items/52296294
+DEBUG:RobotFramework:Video is not enabled.
+DEBUG:RobotFramework:Text received successfully.
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.0479731559753418 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+INFO:root:WIID = 52296294
+INFO:root:TaxID = IT231232
+INFO:root:Saved into output file: C:\Users\admin\Desktop\Robocorp\ACME_Project\devdata\work-items-out\run-1\work-items.json
+INFO:RobotFramework:[{"type": "chromium", "id": "browser=fecaa372-0eec-4a7e-9305-0e5ff31c0c6b", "contexts": [{"type": "context", "id": "context=16808708-a89f-42ee-a0a8-39e28e2c700a", "activePage": "page=1bd25624-33d9-431c-bf87-38fdfd0f24d1", "pages": [{"type": "page", "title": "ACME System 1 - Work Items", "url": "https://acme-test.uipath.com/work-items?page=13", "id": "page=82750e46-d24d-4b7a-89c2-a1a119d64cbd", "timestamp": 1643566950.922}, {"type": "page", "title": "ACME System 1 - Work Items", "url": "https://acme-test.uipath.com/work-items/52296294", "id": "page=1bd25624-33d9-431c-bf87-38fdfd0f24d1", "timestamp": 1643566984.68}]}], "activeContext": "context=16808708-a89f-42ee-a0a8-39e28e2c700a", "activeBrowser": true}]
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.006997823715209961 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+INFO:RobotFramework:Active context id
+INFO:RobotFramework:Successfully changed active browser
+INFO:RobotFramework:Returned active context id
+INFO:RobotFramework:Successfully changed active context
+INFO:RobotFramework:Successfully closed Page
+INFO:RobotFramework:Successfully initialized new page object and opened url: https://acme-test.uipath.com/work-items/52296291
+DEBUG:RobotFramework:Video is not enabled.
+DEBUG:RobotFramework:Text received successfully.
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.07395815849304199 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+INFO:root:WIID = 52296291
+INFO:root:TaxID = DE763212
+INFO:root:Saved into output file: C:\Users\admin\Desktop\Robocorp\ACME_Project\devdata\work-items-out\run-1\work-items.json
+INFO:RobotFramework:[{"type": "chromium", "id": "browser=fecaa372-0eec-4a7e-9305-0e5ff31c0c6b", "contexts": [{"type": "context", "id": "context=16808708-a89f-42ee-a0a8-39e28e2c700a", "activePage": "page=10caccaa-3989-46a5-8474-48e8bf901f0b", "pages": [{"type": "page", "title": "ACME System 1 - Work Items", "url": "https://acme-test.uipath.com/work-items?page=13", "id": "page=82750e46-d24d-4b7a-89c2-a1a119d64cbd", "timestamp": 1643566950.922}, {"type": "page", "title": "ACME System 1 - Work Items", "url": "https://acme-test.uipath.com/work-items/52296291", "id": "page=10caccaa-3989-46a5-8474-48e8bf901f0b", "timestamp": 1643566985.556}]}], "activeContext": "context=16808708-a89f-42ee-a0a8-39e28e2c700a", "activeBrowser": true}]
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.012994050979614258 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+INFO:RobotFramework:Active context id
+INFO:RobotFramework:Successfully changed active browser
+INFO:RobotFramework:Returned active context id
+INFO:RobotFramework:Successfully changed active context
+INFO:RobotFramework:Successfully closed Page
+INFO:RobotFramework:Successfully initialized new page object and opened url: https://acme-test.uipath.com/work-items/52296295
+DEBUG:RobotFramework:Video is not enabled.
+DEBUG:RobotFramework:Text received successfully.
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.061965227127075195 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+INFO:root:WIID = 52296295
+INFO:root:TaxID = DE325476
+INFO:root:Saved into output file: C:\Users\admin\Desktop\Robocorp\ACME_Project\devdata\work-items-out\run-1\work-items.json
+INFO:RobotFramework:[{"type": "chromium", "id": "browser=fecaa372-0eec-4a7e-9305-0e5ff31c0c6b", "contexts": [{"type": "context", "id": "context=16808708-a89f-42ee-a0a8-39e28e2c700a", "activePage": "page=49dd19a8-8835-4ee7-bb01-56ae84eff5da", "pages": [{"type": "page", "title": "ACME System 1 - Work Items", "url": "https://acme-test.uipath.com/work-items?page=13", "id": "page=82750e46-d24d-4b7a-89c2-a1a119d64cbd", "timestamp": 1643566950.922}, {"type": "page", "title": "ACME System 1 - Work Items", "url": "https://acme-test.uipath.com/work-items/52296295", "id": "page=49dd19a8-8835-4ee7-bb01-56ae84eff5da", "timestamp": 1643566986.316}]}], "activeContext": "context=16808708-a89f-42ee-a0a8-39e28e2c700a", "activeBrowser": true}]
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.008994102478027344 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+INFO:RobotFramework:Active context id
+INFO:RobotFramework:Successfully changed active browser
+INFO:RobotFramework:Returned active context id
+INFO:RobotFramework:Successfully changed active context
+INFO:RobotFramework:Successfully closed Page
+INFO:RobotFramework:Successfully initialized new page object and opened url: https://acme-test.uipath.com/work-items/52296298
+DEBUG:RobotFramework:Video is not enabled.
+DEBUG:RobotFramework:Text received successfully.
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.08395099639892578 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+INFO:root:WIID = 52296298
+INFO:root:TaxID = DE987564
+INFO:root:Saved into output file: C:\Users\admin\Desktop\Robocorp\ACME_Project\devdata\work-items-out\run-1\work-items.json
+INFO:RobotFramework:[{"type": "chromium", "id": "browser=fecaa372-0eec-4a7e-9305-0e5ff31c0c6b", "contexts": [{"type": "context", "id": "context=16808708-a89f-42ee-a0a8-39e28e2c700a", "activePage": "page=79b7876b-0460-409a-8d47-aef2d59150fb", "pages": [{"type": "page", "title": "ACME System 1 - Work Items", "url": "https://acme-test.uipath.com/work-items?page=13", "id": "page=82750e46-d24d-4b7a-89c2-a1a119d64cbd", "timestamp": 1643566950.922}, {"type": "page", "title": "ACME System 1 - Work Items", "url": "https://acme-test.uipath.com/work-items/52296298", "id": "page=79b7876b-0460-409a-8d47-aef2d59150fb", "timestamp": 1643566987.405}]}], "activeContext": "context=16808708-a89f-42ee-a0a8-39e28e2c700a", "activeBrowser": true}]
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.006995439529418945 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+INFO:RobotFramework:Active context id
+INFO:RobotFramework:Successfully changed active browser
+INFO:RobotFramework:Returned active context id
+INFO:RobotFramework:Successfully changed active context
+INFO:RobotFramework:Successfully closed Page
+INFO:RobotFramework:Successfully initialized new page object and opened url: https://acme-test.uipath.com/work-items/52296299
+DEBUG:RobotFramework:Video is not enabled.
+DEBUG:RobotFramework:Text received successfully.
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.09494543075561523 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+INFO:root:WIID = 52296299
+INFO:root:TaxID = FR329083
+INFO:root:Saved into output file: C:\Users\admin\Desktop\Robocorp\ACME_Project\devdata\work-items-out\run-1\work-items.json
+INFO:RobotFramework:[{"type": "chromium", "id": "browser=fecaa372-0eec-4a7e-9305-0e5ff31c0c6b", "contexts": [{"type": "context", "id": "context=16808708-a89f-42ee-a0a8-39e28e2c700a", "activePage": "page=0556c49d-e659-460b-87df-25b093225afb", "pages": [{"type": "page", "title": "ACME System 1 - Work Items", "url": "https://acme-test.uipath.com/work-items?page=13", "id": "page=82750e46-d24d-4b7a-89c2-a1a119d64cbd", "timestamp": 1643566950.922}, {"type": "page", "title": "ACME System 1 - Work Items", "url": "https://acme-test.uipath.com/work-items/52296299", "id": "page=0556c49d-e659-460b-87df-25b093225afb", "timestamp": 1643566988.402}]}], "activeContext": "context=16808708-a89f-42ee-a0a8-39e28e2c700a", "activeBrowser": true}]
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.005993843078613281 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+INFO:RobotFramework:Active context id
+INFO:RobotFramework:Successfully changed active browser
+INFO:RobotFramework:Returned active context id
+INFO:RobotFramework:Successfully changed active context
+INFO:RobotFramework:Successfully closed Page
+INFO:RobotFramework:Successfully initialized new page object and opened url: https://acme-test.uipath.com/work-items/52296287
+DEBUG:RobotFramework:Video is not enabled.
+DEBUG:RobotFramework:Text received successfully.
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.0479736328125 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+INFO:root:WIID = 52296287
+INFO:root:TaxID = RO657483
+INFO:root:Saved into output file: C:\Users\admin\Desktop\Robocorp\ACME_Project\devdata\work-items-out\run-1\work-items.json
+INFO:RobotFramework:[{"type": "chromium", "id": "browser=fecaa372-0eec-4a7e-9305-0e5ff31c0c6b", "contexts": [{"type": "context", "id": "context=16808708-a89f-42ee-a0a8-39e28e2c700a", "activePage": "page=2c0a4fc2-cecf-4ea6-8c21-4344253e6ac5", "pages": [{"type": "page", "title": "ACME System 1 - Work Items", "url": "https://acme-test.uipath.com/work-items?page=13", "id": "page=82750e46-d24d-4b7a-89c2-a1a119d64cbd", "timestamp": 1643566950.922}, {"type": "page", "title": "ACME System 1 - Work Items", "url": "https://acme-test.uipath.com/work-items/52296287", "id": "page=2c0a4fc2-cecf-4ea6-8c21-4344253e6ac5", "timestamp": 1643566989.268}]}], "activeContext": "context=16808708-a89f-42ee-a0a8-39e28e2c700a", "activeBrowser": true}]
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.0 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+INFO:RobotFramework:Active context id
+INFO:RobotFramework:Successfully changed active browser
+INFO:RobotFramework:Returned active context id
+INFO:RobotFramework:Successfully changed active context
+INFO:RobotFramework:Successfully closed Page
+INFO:RobotFramework:[{"type": "chromium", "id": "browser=fecaa372-0eec-4a7e-9305-0e5ff31c0c6b", "contexts": [{"type": "context", "id": "context=16808708-a89f-42ee-a0a8-39e28e2c700a", "activePage": "page=82750e46-d24d-4b7a-89c2-a1a119d64cbd", "pages": [{"type": "page", "title": "ACME System 1 - Work Items", "url": "https://acme-test.uipath.com/work-items?page=13", "id": "page=82750e46-d24d-4b7a-89c2-a1a119d64cbd", "timestamp": 1643566950.922}]}], "activeContext": "context=16808708-a89f-42ee-a0a8-39e28e2c700a", "activeBrowser": true}]
+DEBUG:RobotFramework:Assertion polling statistics:
+First element asserted in: 0.010994672775268555 seconds
+Total tries: 1
+Elapsed time in retries 0.0 seconds
+INFO:RobotFramework:Active context id
+INFO:RobotFramework:Successfully changed active browser
+INFO:RobotFramework:Returned active context id
+INFO:RobotFramework:Successfully changed active context
+INFO:RobotFramework:Successfully closed Page
+DEBUG:RobotFramework:Closing all open browsers, contexts and pages in Playwright
+INFO:RobotFramework:Closed all browsers
+DEBUG:RobotFramework:Closing Playwright process
+DEBUG:RobotFramework:Playwright process killed
