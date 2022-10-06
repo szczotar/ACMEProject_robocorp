@@ -19,6 +19,7 @@ import time
 from RPA.HTTP import HTTP
 import requests
 from bs4 import BeautifulSoup
+
 os.chdir("output")
 
 # handler = logging.handlers.WatchedFileHandler(
@@ -29,12 +30,13 @@ os.chdir("output")
 # root.setLevel(os.environ.get("LOGLEVEL", "INFO"))
 # root.addHandler(handler)
 
-logging.basicConfig(filename=f"{os.getcwd()}/logs.log",level=logging.INFO)
+logging.basicConfig(filename=f"{os.getcwd()}/logs.log",format='%(asctime)s %(message)s', datefmt ="%d-%m-%Y %H:%M:%S",level=logging.INFO)
 
 browser = Playwright()
 secrets = Vault()
+
 http = HTTP()
-Chrom = browser.new_browser(browser = SupportedBrowsers["chromium"])
+Chrom = browser.new_browser(browser = SupportedBrowsers["chromium"], headless=False)
 
 def openWebsite():
     try:

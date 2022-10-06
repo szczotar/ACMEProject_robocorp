@@ -17,7 +17,6 @@ import logging
 import logging.handlers
 import os
 import time
-from populateQueue import Navigate_WorkItems
 import glob
 
 
@@ -27,8 +26,9 @@ secrets = Vault()
 http = HTTP()
 Chrom = browser.new_browser(browser = SupportedBrowsers["chromium"], headless=False)
                             # downloadsPath =r"C:\Users\admin\Downloads")
-context =  browser.new_context(acceptDownloads= True, javaScriptEnabled = True, ignoreHTTPSErrors = True,bypassCSP=True)
-os.chdir("output")
+context =  browser.new_context(acceptDownloads= True, javaScriptEnabled = True, ignoreHTTPSErrors = False,bypassCSP=True)
+
+# os.chdir("output")
 
 def openWebsite():
     try:
@@ -67,6 +67,7 @@ def Collect_repotsFromYear(TaxID):
             browser.click("id=buttonDownload")
             browser.wait_for(promise)
         except:
+            # browser.handle_future_dialogs(action= "accept")
             browser.reload()
             continue
 
